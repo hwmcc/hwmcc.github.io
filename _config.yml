@@ -1,0 +1,7 @@
+title: HWMCC
+logo: assets/img/hwmcc.png
+description: >- # this means to ignore newlines until "baseurl:"
+  Hardware Model Checking Competition
+
+# Build settings
+theme: jekyll-theme-minimal
