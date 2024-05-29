@@ -144,7 +144,7 @@ All submission dates were anywhere on earth.
 
 ## Organization
 
-HWMCC'19 was organized by
+HWMCC'20 was organized by
 
 - [Armin Biere](http://fmv.jku.at/biere),
   [Johannes Keplers University Linz](http://www.jku.at), Austria

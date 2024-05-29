@@ -4,10 +4,10 @@ layout: default
 
 ## News
 
-HWMCC'24 will take place this year and wil be affiliated to
+[HWMCC'24](/2024) will take place this year and will be affiliated to
 [FMCAD'24](https://fmcad.forsyte.at/FMCAD24/).
 
-More information will be available soon.
+More information for HWMCC'24 can be found [here](2024/).
 
 ## Previous Editions
 
