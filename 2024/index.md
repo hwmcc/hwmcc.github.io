@@ -13,7 +13,7 @@ This year we will have **three tracks** with **single safety** properties:
 2. Word-level with arrays
 3. Bit-level with mandatory safety certificates
 
-Note that for 3) we will translate the word-level benchmarks from 1) and 2) to
+Note that for 3) we will translate the word-level benchmarks from 1) to
 AIGER bit-level benchmarks.
 
 As in previous years, the word-level track is based on the BTOR2 format, which
