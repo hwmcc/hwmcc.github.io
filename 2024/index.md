@@ -59,9 +59,9 @@ All submission dates are anywhere on earth (AoE).
 
 HWMCC'24 is organized by
 
-- [Armin Biere](http://fmv.jku.at/biere),
-  [Johannes Keplers University Linz](http://www.jku.at), Austria
+- [Armin Biere](https://cca.informatik.uni-freiburg.de/biere),
+  [University of Freiburg](https://uni-freiburg.de), Germany
 - [Nils Froleyks](http://fmv.jku.at/froleyks), 
   [Johannes Keplers University Linz](http://www.jku.at), Austria
 - [Mathias Preiner](https://cs.stanford.edu/~preiner),
-  [Stanford University](https://www.stanford.edu)
+  [Stanford University](https://www.stanford.edu), USA
