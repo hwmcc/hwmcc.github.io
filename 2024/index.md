@@ -46,7 +46,7 @@ we'll split them up in separate benchmarks with one safety property each.
 ## Submission
 
 Please send model checker and benchmarks submissions to  
-- [Armin Biere](mailto:armin.biere@jku.at)
+- [Armin Biere](mailto:biere@cs.uni-freiburg.de)
 - [Nils Froleyks](mailto:nils.froleyks@jku.at)
 - [Mathias Preiner](mailto:preiner@cs.stanford.edu)
 
