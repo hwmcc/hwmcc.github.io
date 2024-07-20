@@ -62,6 +62,6 @@ HWMCC'24 is organized by
 - [Armin Biere](https://cca.informatik.uni-freiburg.de/biere),
   [University of Freiburg](https://uni-freiburg.de), Germany
 - [Nils Froleyks](http://fmv.jku.at/froleyks), 
-  [Johannes Keplers University Linz](http://www.jku.at), Austria
+  [Johannes Kepler University Linz](http://www.jku.at), Austria
 - [Mathias Preiner](https://cs.stanford.edu/~preiner),
   [Stanford University](https://www.stanford.edu), USA
