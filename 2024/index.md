@@ -35,7 +35,16 @@ distributed as part of
 
 ## Setup
 
-TBD
+The hardware setup for the competition is as follows: the cluster machines we
+use are equipped with
+**AMD Ryzen 9 7950X 16-core** processors and **128 GB RAM**,
+running Ubuntu 20.04 LTS.
+
+Each model checker will have full access to a node, i.e., 16 (physical) cores
+and 128 GB of RAM.
+A **memory limit of 120 GB**  will be enforced with a **time limit of 1 hour**
+of wall-clock time.
+
 
 ## Benchmarks
 
