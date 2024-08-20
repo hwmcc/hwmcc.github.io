@@ -38,7 +38,7 @@ distributed as part of
 The hardware setup for the competition is as follows: the cluster machines we
 use are equipped with
 **AMD Ryzen 9 7950X 16-core** processors and **128 GB RAM**,
-running Ubuntu 20.04 LTS.
+running **Ubuntu 20.04 LTS**.
 
 Each model checker will have full access to a node, i.e., 16 (physical) cores
 and 128 GB of RAM.
@@ -62,7 +62,17 @@ Please send model checker and benchmarks submissions to
 **Registration and first versions** of model checkers are due on
 **September 1, 2024**.
 
-All submission dates are anywhere on earth (AoE).
+All submission dates are anywhere on earth (AoE). Make sure that the submission
+can be **executed under Ubuntu 20.04 LTS**. The safest bet is to provide
+**statically linked binaries**.
+
+### Bit-Level Certificate Output
+
+Certificates should be written to an output file in the **current working
+directory**, ideally to a file called `certificate.aig` (for binary AIGER) and
+`certificate.aag` (for ASCII AIGER). If the name of the certificate is
+different, please mention this in your submission.
+
 
 ## Organization
 
