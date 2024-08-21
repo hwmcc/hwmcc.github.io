@@ -15,7 +15,8 @@ This year we will have **three tracks** with **single safety** properties:
 
 Note that for 3) we will translate the word-level benchmarks from 1) to
 AIGER bit-level benchmarks.
-The certificate will be checked with [Certifaiger](https://github.com/Froleyks/certifaiger).
+The certificate will be checked with [Certifaiger](https://github.com/Froleyks/certifaiger)
+and counter examples with [aigsim](http://fmv.jku.at/aiger).
 
 As in previous years, the word-level track is based on the BTOR2 format, which
 is described in
