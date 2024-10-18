@@ -100,7 +100,7 @@ Coming soon...
 ## CSV Files
 
 - [Bit-level: Solved](hwmcc24_aiger.csv)
-- [Bit-level: Certified](hwmcc24_aiger_cer.csv)
+- [Bit-level: Certified](hwmcc24_aiger_cert.csv)
 - [Word-level: Bit-Vectors](hwmcc24_btor2_bv.csv)
 - [Word-level: Bit-Vectors+Arrays](hwmcc24_btor2_array.csv)
 
