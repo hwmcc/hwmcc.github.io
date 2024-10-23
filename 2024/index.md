@@ -95,7 +95,8 @@ are available as [hwmcc24slides.pdf](hwmcc24slides.pdf).
 
 ## Competition Benchmarks
 
-Coming soon...
+The benchmarks used in each track can be found on
+[Zenodo](https://zenodo.org/records/13958851).
 
 ## CSV Files
 
