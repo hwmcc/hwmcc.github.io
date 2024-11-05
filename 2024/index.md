@@ -10,7 +10,22 @@ This was be the 12th competitive event for hardware model checkers.
 In total we awarded **9 "medals"**: gold/silver/bronze for 1st/2nd/3rd
 place in each track.
 
-<img src="medals.png" alt="Overall medal count for all tracks" height="300" />
+|                        | **gold** | **silver** | **bronze** |
+| ---------------------- | -------- | ---------- | ---------- |
+| **ric3**               |        2 |            |            |
+| **avr**                |        1 |          1 |            |
+| **pavy**               |          |          1 |            |
+| **pono**               |          |          1 |            |
+| **nuxmv**              |          |            |         3  |
+| **supercar**           |          |            |         1  |
+| **fric3**              |          |            |         1* |
+
+\* Due to some execution issues on our cluster with fric3, it was originally
+placed last in the bit-level track. After fixing the issue on our side and
+rerunning the original submission with the fixed setup, the submission placed
+3rd in the bit-level track. Hence, we additionally awarded a second bronze
+medal in the bit-level track.
+
 
 ### Bit-Level Track
 
@@ -19,16 +34,16 @@ place in each track.
 #### Results (Solved)
 
 ```
-                 total  solved  sat  unsat  unknown  time_real  time_cpu    memory  best  uniq 
- ric3              319     248   72    176        0     291344   4153052   4493952   104    23 
- pavy              319     217   51    166        1     390161   3786142   7301625    24     3 
- supercar          319     167   46    121       27     438161   5242815   4928159     8     4 
- ncip-portfolio    319     157   47    110       12     565994   1695151  14808792     1     0 
- mc-zhulf          319     152   51    101       81     450169   2190356   5056390    23     1 
- ncip-minicraig    319     149   43    106        0     702887    702828   3201387    42     1 
- ncip-cadicraig    319     148   47    101        0     626479    626813  12445563    26     0 
- voiraig           319      87   19     68        0     856670    856462    498891    16     0 
- fric3             319      83   14     69      157     300617    349652    388817    17     0 
+                 total  solved  sat  unsat  unknown  time_real   time_cpu      memory  best  uniq 
+ ric3              319     248   72    176        0   291344.1  4153052.2   4493951.9   102    21 
+ pavy              319     217   51    166        1   390161.4  3786142.4   7301625.4    29     3 
+ fric3             319     181   49    132       16   477563.0  4707881.2   4117612.8     6     1 
+ supercar          319     167   46    121       27   438160.7  5242815.5   4928158.8     7     2 
+ ncip-portfolio    319     157   47    110       12   565994.4  1695151.4  14808792.5     1     0 
+ mc-zhulf          319     152   51    101       81   450168.9  2190356.5   5056389.8    24     1 
+ ncip-minicraig    319     149   43    106        0   702887.5   702827.6   3201387.1    44     1 
+ ncip-cadicraig    319     148   47    101        0   626478.5   626813.5  12445563.0    32     0 
+ voiraig           319      87   19     68        0   856670.4   856461.7    498891.1    17     0 
 ```
 
 Note: The results are the solving statistics (uncertified).
@@ -37,16 +52,16 @@ Note: The results are the solving statistics (uncertified).
 #### Results (Certified)
 
 ```
-                 total  solved  sat  unsat  unknown  time_real  time_cpu  memory  uniq 
- ric3              319     248   72    176       71      14544     10608   63368    25 
- pavy              319     217   51    166      102      37453     36614   74588     3 
- supercar          319     162   41    121      152       5713      3829   41911     4 
- mc-zhulf          319     152   51    101      167        808       322    6349     1 
- ncip-portfolio    319     149   47    102      162       6265      3566   42354     0 
- ncip-cadicraig    319     148   47    101      171       4566      3233   39152     0 
- ncip-minicraig    319     140   43     97      170       5408      3292   45330     0 
- voiraig           319      87   19     68      232        762       354    5642     0 
- fric3             319      83   14     69      236        851       579   70673     0 
+                 total  solved  sat  unsat  unknown  time_real  time_cpu   memory  uniq 
+ ric3              319     248   72    176       71    14544.3   10607.7  63367.5    23 
+ pavy              319     217   51    166      102    37453.0   36613.6  74588.3     3 
+ fric3             319     174   46    128      138    11525.3    9600.2  74005.5     1 
+ supercar          319     162   41    121      152     5713.2    3829.2  41910.7     2 
+ mc-zhulf          319     152   51    101      167      808.4     322.1   6348.5     1 
+ ncip-portfolio    319     149   47    102      162     6265.2    3566.1  42353.9     0 
+ ncip-cadicraig    319     148   47    101      171     4566.2    3232.5  39151.9     0 
+ ncip-minicraig    319     140   43     97      170     5408.4    3291.8  45329.7     0 
+ voiraig           319      87   19     68      232      762.4     353.5   5641.9     0 
 ```
 
 Note: The results are the certification statistics. The time and memory columns
