@@ -29,7 +29,7 @@ medal in the bit-level track.
 
 ### Bit-Level Track
 
-<img src="hwmcc24_cdf_aiger.png" alt="Bit-level track results as CDF plot" height="400" />
+<a href="hwmcc24_cdf_aiger.png"><img src="hwmcc24_cdf_aiger.png" alt="Bit-level track results as CDF plot" height="400" /></a>
 
 #### Results (Solved)
 
@@ -70,7 +70,7 @@ certificates.
 
 ### Word-Level Track: Bit-Vectors
 
-<img src="hwmcc24_cdf_btor2_bv.png" alt="Word-level bit-vector track results as CDF plot" height="400" />
+<a href="hwmcc24_cdf_btor2_bv.png"><img src="hwmcc24_cdf_btor2_bv.png" alt="Word-level bit-vector track results as CDF plot" height="400" /></a>
 
 ```
                  total  solved  sat  unsat  unknown  time_real  time_cpu    memory  best  uniq 
@@ -86,7 +86,7 @@ certificates.
 
 ### Word-Level Track: Bit-Vectors+Arrays
 
-<img src="hwmcc24_cdf_btor2_array.png" alt="Word-level bit-vector+arrays track results as CDF plot" height="400" />
+<a href="hwmcc24_cdf_btor2_array.png"><img src="hwmcc24_cdf_btor2_array.png" alt="Word-level bit-vector+arrays track results as CDF plot" height="400" /></a>
 
 
 ```
