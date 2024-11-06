@@ -113,6 +113,16 @@ are available as [hwmcc24slides.pdf](hwmcc24slides.pdf).
 The benchmarks used in each track can be found on
 [Zenodo](https://zenodo.org/records/13958851).
 
+### Benchmark Contributors
+
+Many thanks to this year's benchmark submitters:
+
+- Jannis Harder (YosysHQ)
+- Zhiyuan Yan, Guangyu Hu, Ziyue Zheng, You Li,
+  Guannan Zhao, Yangdi Lyu, Hongce Zhang, Xiaofeng Zhou (Hong Kong University
+  of Science and Technology, Northwestern University)
+- Po-Chun Chien, Nian-Ze Lee (LMU Munich)
+
 ## CSV Files
 
 - [Bit-level: Solved](hwmcc24_aiger.csv)
