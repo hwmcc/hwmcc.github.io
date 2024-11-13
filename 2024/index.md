@@ -116,7 +116,7 @@ are available as [hwmcc24slides.pdf](hwmcc24slides.pdf).
 ## Competition Benchmarks
 
 The benchmarks used in each track can be found on
-[Zenodo](https://zenodo.org/records/13958851).
+[Zenodo](https://zenodo.org/records/14156844).
 
 ### Benchmark Contributors
 
