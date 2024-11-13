@@ -17,7 +17,7 @@ place in each track.
 | **pavy**               |          |          1 |            |
 | **pono**               |          |          1 |            |
 | **nuxmv**              |          |            |         3  |
-| **supercar**           |          |            |         1  |
+| **supercar**           |          |            |         1**  |
 | **fric3**              |          |            |         1* |
 
 \* Due to some execution issues on our cluster with fric3, it was originally
@@ -26,6 +26,11 @@ rerunning the original submission with the fixed setup, the submission placed
 3rd in the bit-level track. Hence, we additionally awarded a second bronze
 medal in the bit-level track.
 
+\*\* SuperCAR reported sat/unsat inconsistently for some of its engines, which
+     only wrote certificates without printing any additional output.
+     The execution environment however originally relied on these answers.
+     After taking this into account and rerunning the original submission of
+     SuperCAR, the submission placed again 3rd place in the bit-level track.
 
 ### Bit-Level Track
 
@@ -34,16 +39,16 @@ medal in the bit-level track.
 #### Results (Solved)
 
 ```
-                 total  solved  sat  unsat  unknown  time_real   time_cpu      memory  best  uniq 
- ric3              319     248   72    176        0   291344.1  4153052.2   4493951.9   102    21 
- pavy              319     217   51    166        1   390161.4  3786142.4   7301625.4    29     3 
- fric3             319     181   49    132       16   477563.0  4707881.2   4117612.8     6     1 
- supercar          319     167   46    121       27   438160.7  5242815.5   4928158.8     7     2 
- ncip-portfolio    319     157   47    110       12   565994.4  1695151.4  14808792.5     1     0 
- mc-zhulf          319     152   51    101       81   450168.9  2190356.5   5056389.8    24     1 
- ncip-minicraig    319     149   43    106        0   702887.5   702827.6   3201387.1    44     1 
- ncip-cadicraig    319     148   47    101        0   626478.5   626813.5  12445563.0    32     0 
- voiraig           319      87   19     68        0   856670.4   856461.7    498891.1    17     0 
+                 total  solved  sat  unsat  unknown  time_real   time_cpu      memory  best  uniq  dis 
+ ric3              319     248   72    176        0   291344.1  4153052.2   4493951.9    95    13    0 
+ pavy              319     217   51    166        1   390161.4  3786142.4   7301625.4    28     3    0 
+ supercar          319     189   66    123        0   436700.9  5223233.6   4945501.0    20     5    8 
+ fric3             319     181   49    132       16   477563.0  4707881.2   4117612.8     5     1    0 
+ ncip-portfolio    319     157   47    110       12   565994.4  1695151.4  14808792.5     0     0    0 
+ mc-zhulf          319     152   51    101       81   450168.9  2190356.5   5056389.8    24     1    0 
+ ncip-minicraig    319     149   43    106        0   702887.5   702827.6   3201387.1    44     1    0 
+ ncip-cadicraig    319     148   47    101        0   626478.5   626813.5  12445563.0    32     0    0 
+ voiraig           319      87   19     68        0   856670.4   856461.7    498891.1    17     0    0 
 ```
 
 Note: The results are the solving statistics (uncertified).
@@ -53,10 +58,10 @@ Note: The results are the solving statistics (uncertified).
 
 ```
                  total  solved  sat  unsat  unknown  time_real  time_cpu   memory  uniq 
- ric3              319     248   72    176       71    14544.3   10607.7  63367.5    23 
+ ric3              319     248   72    176       71    14544.3   10607.7  63367.5    20 
  pavy              319     217   51    166      102    37453.0   36613.6  74588.3     3 
+ supercar          319     177   54    123      122     5722.5    5626.6  48791.2     5 
  fric3             319     174   46    128      138    11525.3    9600.2  74005.5     1 
- supercar          319     162   41    121      152     5713.2    3829.2  41910.7     2 
  mc-zhulf          319     152   51    101      167      808.4     322.1   6348.5     1 
  ncip-portfolio    319     149   47    102      162     6265.2    3566.1  42353.9     0 
  ncip-cadicraig    319     148   47    101      171     4566.2    3232.5  39151.9     0 
