@@ -1,6 +1,6 @@
 # HWMCC'24
 
-This was be the 12th competitive event for hardware model checkers.
+This was the 12th competitive event for hardware model checkers.
 
 ## Affiliated to [FMCAD'24](https://fmcad.forsyte.at/FMCAD24/)
 ### October 14 - 18, 2024, Prague, Czech Republic
