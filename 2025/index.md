@@ -11,12 +11,11 @@ This year we will have the following **four tracks**:
 
 1. Word-level safety without arrays
 2. Word-level safety with arrays
-4. Bit-level safety
-5. Bit-level liveness **(new)**
+3. Bit-level safety
+4. Bit-level liveness **(new)**
 
-Note that for track 4 we translate the word-level benchmarks from word-level
+Note that for track 3 we translate the word-level benchmarks from word-level
 track 1 to [AIGER](https://github.com/arminbiere/aiger) bit-level benchmarks.
-Track 3 will be contingent on benchmark availability.
 Note that bit-level tracks will be in **AIGER 1.9** (including reset functions).
 
 ### Certificates
@@ -60,10 +59,10 @@ of wall-clock time.
 ## Benchmark Submission
 
 Submission deadline for new benchmarks is **August 17, 2025 AoE**.
-Please submit your benchmarks in BTOR2 format.
+Please submit safety benchmarks in BTOR2 format and bit-level liveness
+benchmarks in AIGER 1.9.
 If benchmarks have multiple safety/liveness properties, we will split them up
 in separate benchmarks with one property each.
-Bit-level AIGER benchmarks with liveness properties are also welcome.
 
 Please submit benchmarks to
 - [Armin Biere](mailto:biere@cs.uni-freiburg.de)
