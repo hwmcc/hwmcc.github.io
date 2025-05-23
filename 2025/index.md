@@ -16,7 +16,7 @@ This year we will have the following **four tracks**:
 
 Note that for track 3 we translate the word-level benchmarks from word-level
 track 1 to [AIGER](https://github.com/arminbiere/aiger) bit-level benchmarks.
-Note that bit-level tracks will be in **AIGER 1.9** (including [reset functions](###Reset Functinos)).
+Note that bit-level tracks will be in **AIGER 1.9** (including [reset functions](#reset-functions)).
 
 ### Certificates
 
