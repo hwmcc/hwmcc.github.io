@@ -20,15 +20,14 @@ Note that bit-level tracks will be in **AIGER 1.9** (including reset functions).
 
 ### Certificates
 
-In the word-level tracks (1 and 2) producing **BTOR2 counterexample 
-(sat) will be mandatory**.
+In the word-level tracks (1 and 2) producing **BTOR2 counterexamples
+will be mandatory**.
 The BTOR2 counterexamples will be checked with [BtorSim](https://github.com/Boolector/btor2tools/tree/master/src/btorsim).
-As in HWMCC'24, **bit-level safety certificates will be mandatory**.
-The bit-level certificates will be checked with [Certifaiger](https://github.com/Froleyks/certifaiger)
+As in HWMCC'24, for the **bit-level track, both counterexamples and safety certificates are mandatory**.
+The certificates will be checked with [Certifaiger](https://github.com/Froleyks/certifaiger)
 and counterexamples with [aigsim](https://github.com/arminbiere/aiger).
 
-As in previous years, the word-level track was based on the BTOR2 format, which
-is described in
+As in previous years, the word-level track uses the BTOR2 format described in
 [BTOR2 CAV'18 paper](https://link.springer.com/content/pdf/10.1007%2F978-3-319-96145-3_32.pdf).
 The [Btor2Tools](https://github.com/hwmcc/btor2tools/)
 tool suite provides a generic parser
@@ -52,7 +51,7 @@ running **Ubuntu 24.04 LTS**.
 
 Each model checker will have full access to a node, i.e., 16 physical (32
 virtual) cores and 128 GB of RAM.
-A **memory limit of 120 GB**  is enforced with a **time limit of 1 hour**
+A **memory limit of 120 GB** is enforced with a **time limit of 1 hour**
 of wall-clock time.
 
 
@@ -60,7 +59,8 @@ of wall-clock time.
 
 Submission deadline for new benchmarks is **August 17, 2025 AoE**.
 Please submit safety benchmarks in BTOR2 format and bit-level liveness
-benchmarks in AIGER 1.9.
+benchmarks in AIGER 1.9. Word-level liveness benchmarks are welcome but will not
+be used in this year's competition.
 If benchmarks have multiple safety/liveness properties, we will split them up
 in separate benchmarks with one property each.
 
@@ -93,8 +93,9 @@ The **mandatory interface** for each submission is as follows.
 where
 - `<benchmark>` is the AIGER 1.9 benchmark
 - `<certificate.sat>` the path of the AIGER counterexample
-- `<certificater.unsat>` the path of the safety certificate
+- `<certificate.unsat>` the path of the safety certificate
 
+The format (binary / ascii) of the certificate.unsat should depend on the file extension of the argument (.aig for binary, .aag for ascii). During the competition we will always expect binary certificates.
 
 **Word-level track**
 ```
@@ -106,7 +107,7 @@ where
 - `<certificate.sat>` the path of the BTOR2 counterexample
 
 
-**Temporary files** must be written to `/tmp`.
+**Temporary files** must be written to `/tmp` and should be cleaned up by the model checker before exiting.
 
 
 ## Organization
