@@ -4,12 +4,11 @@ layout: default
 
 ## News
 
-[HWMCC'24](/2024) results are now online.
-
-More information for HWMCC'24 can be found [here](2024/).
+**HWMCC'25** is now [online](/2025).
 
 ## Previous Editions
 
+- [HWMCC'24](/2024) at [FMCAD'24](https://fmcad.forsyte.at/FMCAD24/), Prague, Czech Republic
 - [HWMCC'20](/2020) at [FMCAD'20](https://fmcad.forsyte.at/FMCAD20/), Virtual
 - [HWMCC'19](http://fmv.jku.at/hwmcc19) at [FMCAD'19](https://fmcad.forsyte.at/FMCAD19/), San Jose, USA
 - [HWMCC'17](http://fmv.jku.at/hwmcc17) at [FMCAD'17](http://www.cs.utexas.edu/users/hunt/FMCAD/FMCAD17), Vienna, Austria
