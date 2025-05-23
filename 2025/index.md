@@ -1,31 +1,30 @@
 # HWMCC'25
 
-This was be the 13th competitive event for hardware model checkers.
+This is the 13th competitive event for hardware model checkers.
 
 ## Affiliated to [FMCAD'25](https://fmcad.forsyte.at/FMCAD25/)
 ### October 6 - 10, 2025, Menlo Park, California, USA
 
 ## Format
 
-This year we will have the following **five tracks**:
+This year we will have the following **four tracks**:
 
 1. Word-level safety without arrays
 2. Word-level safety with arrays
-3. Word-level liveness (with or without arrays) **(new)**
 4. Bit-level safety
 5. Bit-level liveness **(new)**
 
 Note that for track 4 we translate the word-level benchmarks from word-level
 track 1 to [AIGER](https://github.com/arminbiere/aiger) bit-level benchmarks.
 Track 3 will be contingent on benchmark availability.
-Note that bit-level tracks will be in AIGER 1.9 (including reset functions).
+Note that bit-level tracks will be in **AIGER 1.9** (including reset functions).
 
 ### Certificates
 
 In the word-level tracks (1 and 2) producing **BTOR2 counterexample 
 (sat) will be mandatory**.
 The BTOR2 counterexamples will be checked with [BtorSim](https://github.com/Boolector/btor2tools/tree/master/src/btorsim).
-As in HWMCC'24, in the **bit-level safety certificates will be mandatory**.
+As in HWMCC'24, **bit-level safety certificates will be mandatory**.
 The bit-level certificates will be checked with [Certifaiger](https://github.com/Froleyks/certifaiger)
 and counterexamples with [aigsim](https://github.com/arminbiere/aiger).
 
@@ -52,8 +51,8 @@ use are equipped with
 **AMD Ryzen 9 7950X 16-core** processors and **128 GB RAM**,
 running **Ubuntu 24.04 LTS**.
 
-Each model checker will have full access to a node, i.e., 16 (physical) cores
-and 128 GB of RAM.
+Each model checker will have full access to a node, i.e., 16 physical (32
+virtual) cores and 128 GB of RAM.
 A **memory limit of 120 GB**  is enforced with a **time limit of 1 hour**
 of wall-clock time.
 
@@ -78,8 +77,8 @@ Please submit benchmarks to
 
 All submission dates are anywhere on earth (AoE). We require the submission to
 use **statically compiled binaries** to ensure proper execution in the provided
-cluster environment. If the submission relies on Python, make sure that the
-tool can be **called from any directory**.
+cluster environment. Make sure that the tool can be **called from any
+directory**. Only **one version per model checker** allowed.
 
 
 Submission process: TBA
