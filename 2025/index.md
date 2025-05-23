@@ -16,7 +16,7 @@ This year we will have the following **four tracks**:
 
 Note that for track 3 we translate the word-level benchmarks from word-level
 track 1 to [AIGER](https://github.com/arminbiere/aiger) bit-level benchmarks.
-Note that bit-level tracks will be in **AIGER 1.9** (including reset functions).
+Note that bit-level tracks will be in **AIGER 1.9** (including [reset functions](###Reset Functinos)).
 
 ### Certificates
 
@@ -41,6 +41,9 @@ There is also a simple bounded model checker
 distributed as part of
 [Boolector](https://github.com/Boolector/boolector).
 
+### Reset Functions
+While the AIGER 1.9 format allows latches to be reset to 0, 1, or remain uninitialized,
+reset functions additionally allow latches to be reset to an arbitrary gate.
 
 ## Setup
 
