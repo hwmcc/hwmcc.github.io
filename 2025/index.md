@@ -112,6 +112,8 @@ where
 
 **Temporary files** must be written to `/tmp` and should be cleaned up by the model checker before exiting.
 
+**Output** Model checkers are required to print `sat`/`unsat` (in one line) to `stdout` in case of unsafe/safe properties.
+
 
 ## Organization
 
