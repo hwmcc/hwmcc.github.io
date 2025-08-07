@@ -82,8 +82,16 @@ use **statically compiled binaries** to ensure proper execution in the provided
 cluster environment. Make sure that the tool can be **called from any
 directory**. Only **one version per model checker** allowed.
 
+**Submission Test Setup**: To make sure that your submission is running in the
+competition environment, we provide the following [Ubuntu 24.04 Docker
+image](hwmcc25-test-setup.tar.gz). Follow the provided README.md to make sure
+that your submission can be executed successfully without errors within this
+image before submitting.
 
-Submission process: TBA
+**Submission**: Please send model checker and benchmarks submissions to
+- [Armin Biere](mailto:biere@cs.uni-freiburg.de)
+- [Nils Froleyks](mailto:nils.froleyks@jku.at)
+- [Mathias Preiner](mailto:preiner@cs.stanford.edu)
 
 ### Mandatory Command Line Interface
 
