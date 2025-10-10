@@ -5,6 +5,19 @@ This is the 13th competitive event for hardware model checkers.
 ## Affiliated to [FMCAD'25](https://fmcad.forsyte.at/FMCAD25/)
 ### October 6 - 10, 2025, Menlo Park, California, USA
 
+## Results
+
+Coming soon... Results can be found in the [slides](hwmcc25slides.pdf).
+
+## Slides
+
+<a href="hwmcc25slides.pdf"><img src="hwmcc25slides.png" width="300" alt="HWMCC'25 Slides"></a>
+
+The slides summarizing the results and presented in the
+[HWMCC session](https://fmcad.org/FMCAD25/program/) at
+[FMCAD](https://fmcad.forsyte.at/FMCAD25)
+are available as [hwmcc25slides.pdf](hwmcc25slides.pdf).
+
 ## Format
 
 This year we will have the following **four tracks**:
