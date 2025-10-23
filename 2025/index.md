@@ -5,9 +5,139 @@ This is the 13th competitive event for hardware model checkers.
 ## Affiliated to [FMCAD'25](https://fmcad.forsyte.at/FMCAD25/)
 ### October 6 - 10, 2025, Menlo Park, California, USA
 
+## Zenodo Artifact
+
+**Benchmarks**, **certificates** and **log files** are available on
+[Zenodo](https://zenodo.org/records/17428464).
+
 ## Results
 
-Coming soon... Results can be found in the [slides](hwmcc25slides.pdf).
+In total we awarded **10 "medals"**: gold/silver/bronze for 1st/2nd/3rd
+place in each track.
+
+|                        | **gold** | **silver** | **bronze** |
+| ---------------------- | -------- | ---------- | ---------- |
+| **ric3**               |        2 |            |            |
+| **nuxmv**              |        1 |            |            |
+| **pono**               |        1 |            |            |
+| **supercar**           |          |          1 |          1 |
+| **ric3-multi**         |          |          1 |            |
+| **avr**                |          |          1 |            |
+| **btor2-select**       |          |            |          2 |
+
+
+### Bit-Level Safety Track
+
+<a href="bitlevel_safety.png"><img src="bitlevel_safety.png" alt="Bit-level safety track results" height="400" /></a>
+
+##### Results (Uncertified)
+
+Note: The results are the solving statistics (uncertified).
+```
+             solved  sat  unsat    real      cpu       mem  best   uniq
+ric3            274   99    175  207908  3272359   4146711    44      3
+ric3-multi      271  101    170  238854  3254708   3286020    50      2
+super-prove     255   88    167  283251  3375253   1920039    35      2
+supercar        255   97    158  307317  4100273   3074068     4      1
+aic3            250   81    169  308768  3826429   2433956   130      1
+avy             245   83    162  352625  2454704   2202759     4      0
+ncip            135   58     77  327572  3920514  24762956     5      1
+voiraig         114   33     81  804417   804622    362791    12      0
+```
+
+##### Results (Certified)
+
+```
+                 certified  sat        unsat      uniq  timeout
+1   ric3               274   99         175          4        0
+2   ric3-multi         266  101         165 (-4)     2        1
+3   supercar           255   97         158          1        0
+    aic3               248   81         167 (-2)     0        0
+    avy                226   68 (-15)   158 (-3)     0        1
+    ncip               135   58          77          1        0
+    voiraig            114   33          81          0        0
+    super-prove         80   80 (-8)    167 (-167)   0        0
+```
+
+### Bit-Level Liveness Track
+
+<a href="bitlevel_live.png"><img src="bitlevel_live.png" alt="Bit-level livness track results" height="400" /></a>
+
+##### Results (Uncertified)
+
+Note: The results are the solving statistics (uncertified).
+```
+             solved  sat  unsat    real      cpu      mem  best  uniq
+nuxmv           220  107    113  199944  2360722  2345505   174    42
+super-prove     182  86      96  209945   631775  4967024    50     4
+```
+
+##### Results (Certified)
+
+```
+                certified  sat        unsat  uniq
+1  nuxmv              220  107          113   127
+   super-prove         96    0 (-86)     96     3
+
+```
+
+### Word-Level Bit-Vector Track
+
+<a href="wordlevel_bv.png"><img src="wordlevel_bv.png" alt="Word-level bit-vector track results" height="400" /></a>
+
+##### Results (Uncertified)
+
+Note: The results are the solving statistics (uncertified).
+```
+              solved  sat  unsat    real      cpu       mem  best  uniq
+ric3             267   97    170  196539  3001965   4799963   158    15
+supercar         248   97    151  316318  4222838   3102287     8     1
+btor2-select     240   86    154  350761  1687279   2518731    14     1
+avr              233   83    150  380987  5440794   8551739    57     6
+pono             212   80    132  346052  5503963  13212915     6     0
+ic3-ng           161   47    114  621360  1643612   3220367    24     0
+btormc           118   70     48  781675   781898   1474747    26     0
+```
+
+##### Results (Certified)
+
+```
+                 certified  sat        unsat   uniq
+1  ric3                267   97          170     15
+2  supercar            248   97          151      1
+3  btor2-select        240   86          154      1
+   avr                 229   79  (-4)    150      6
+   pono                212   80          132      0
+   ic3-ng              161   47          114      0
+   btormc              118   70           48      0
+```
+
+### Word-Level Arrays Track
+
+<a href="wordlevel_array.png"><img src="wordlevel_array.png" alt="Word-level arrays track results" height="400" /></a>
+
+##### Results (Uncertified)
+
+Note: The results are the solving statistics (uncertified).
+```
+              solved   sat   unsat    real      cpu       mem  best  uniq
+pono             165    55     110  507922  5829196  11337189    92    45
+btor2-select     116    58      58  460647  1579191  12021545    28     3
+avr              114    45      69  367836  4322341  19333338    33     7
+btormc            66    53      13  838396   838600   1622844    25     0
+```
+
+##### Results (Certified)
+
+
+```
+                 certified  sat       unsat  uniq  timeout
+1  pono                165   55         110    45        0
+2  avr                 114   45          69     7        0
+3  btor2-select        112   54 (-3)     58     2        1
+   btormc               66   53          13     0        0
+```
+
 
 ## Slides
 
